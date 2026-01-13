@@ -1,50 +1,58 @@
-📌 README.md — Customer Churn Prediction using ANN
-# Customer Churn Prediction using Artificial Neural Network (ANN)
+# 📊 Customer Churn Prediction using Artificial Neural Network (ANN)
+
+Predict whether a bank customer is likely to **leave (churn)** or **stay**, using an **Artificial Neural Network (ANN)**.  
+This project covers the **complete ML lifecycle** — training, evaluation, and deployment with **Streamlit**.
+
+---
 
 ## 📖 Project Overview
-Customer churn is one of the major challenges faced by banks and financial institutions.  
-This project focuses on predicting whether a customer is **likely to leave the bank (churn)** or **stay loyal**, using an **Artificial Neural Network (ANN)** model trained on a churn dataset.
 
-The project is divided into **three major parts**:
-1. ANN Model Training  
-2. Customer Churn Prediction  
-3. Model Deployment using Streamlit  
+Customer churn is a major challenge for banks and financial institutions.  
+This project uses customer demographic and financial data to predict churn and help businesses take **proactive retention decisions**.
 
-This solution helps banks take **proactive decisions** to retain customers by identifying high-risk churn cases.
+### Key Highlights
+- End-to-end Machine Learning project
+- ANN model built using TensorFlow / Keras
+- Interactive web app using Streamlit
+- Clean, production-ready project structure
 
 ---
 
 ## 🧠 Problem Statement
-To build a machine learning model that predicts customer churn based on demographic and financial details such as:
-- Credit score
+
+Build a machine learning model that predicts customer churn based on:
+- Credit Score
 - Age
-- Balance
 - Tenure
-- Number of products
-- Active membership
-- Estimated salary
+- Balance
+- Number of Products
+- Active Membership
+- Estimated Salary
+
+**Target Variable**
+- `1` → Customer Exited  
+- `0` → Customer Stayed  
 
 ---
 
 ## 🏗️ Project Structure
 
-
+```text
 Customer-Churn-ANN/
 │
 ├── data/
-│ └── churn_dataset.csv
+│   └── churn_dataset.csv
 │
 ├── model/
-│ └── ann_model.h5
+│   └── ann_model.h5
 │
 ├── notebooks/
-│ └── ann_training.ipynb
+│   └── ann_training.ipynb
 │
 ├── app.py
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## ⚙️ Part 1: ANN Model Training
@@ -57,16 +65,12 @@ Customer-Churn-ANN/
 - Model evaluation using accuracy and loss
 - Saving the trained model for deployment
 
----
-
 ## 🔮 Part 2: Customer Churn Prediction
 - Takes customer input data
 - Applies the same preprocessing used during training
 - Predicts whether the customer will:
   - **Stay Loyal**
   - **Exit (Churn)**
-
----
 
 ## 🚀 Part 3: Model Deployment using Streamlit
 - Interactive web interface for real-time prediction
@@ -85,7 +89,7 @@ Customer-Churn-ANN/
   - TensorFlow / Keras
 - **Model Type:** Artificial Neural Network (ANN)
 - **Web Framework:** Streamlit
-- **IDE & Tools:** VS Code, Jupyter Notebook
+- **IDE & Tools:** VS Code
 - **Version Control:** Git & GitHub
 
 ---
@@ -103,47 +107,48 @@ Customer-Churn-ANN/
 ```bash
 Step 1: Clone the Repository
 git clone https://github.com/GitRzh/customer-churn-ann.git
+cd customer-churn-ann
 
-Step 2: Install Dependencies
+Step 2: Create Virtual Enviroment
+python -m venv venv
+source venv/bin/activate        # Linux / Mac
+venv\Scripts\activate           # Windows
+
+Step 3: Install Dependencies
 pip install -r requirements.txt
 
-Step 3: Run Streamlit App
+Step 4: Run Streamlit App
 streamlit run app.py
-
-📌 Future Enhancements
-
-Hyperparameter tuning for better accuracy
-
-Add model performance metrics in UI
-
-Deploy the app on cloud platforms (Heroku / AWS / Streamlit Cloud)
-
-Compare ANN with other ML models
-
-👤 Author
-
-Raz
-Python | AI & ML Enthusiast
-
-⭐ Acknowledgement
-
-Thanks to open-source datasets and libraries that made this project possible.
-
-Conect with Me!
-GitHub: https://github.com/GitRzh
+```
 
 ---
 
-### ✅ Why this README works well for GitHub & Interviews
-✔ Clear **problem → solution → deployment** flow  
-✔ Shows **end-to-end ML project ownership**  
-✔ Streamlit deployment adds **real-world value**  
-✔ Clean structure recruiters love  
+## 📌 Future Enhancements
 
-If you want, I can also:
-- ✨ Make it **resume-optimized**
-- 🧾 Add a **sample input/output section**
-- 📸 Add **Streamlit UI screenshots**
-- 🔗 Write a **LinkedIn post** for this project  
+- Hyperparameter tuning for better accuracy
 
-Just tell me 👍
+- Add model performance metrics in UI
+
+- Deploy the app on cloud platforms (Heroku / AWS / Streamlit Cloud)
+
+- Compare ANN with other ML models
+
+---
+
+## 👤 Author
+
+Raz
+
+Python | AI & ML Enthusiast
+
+---
+
+### ⭐ Acknowledgement
+
+Thanks to open-source datasets and libraries that made this project possible.
+
+Connect with Me!
+
+GitHub: https://github.com/GitRzh
+
+E-mail: GitRzh@users.noreply.github.com
