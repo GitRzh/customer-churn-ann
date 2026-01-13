@@ -137,7 +137,7 @@ streamlit run app.py
 
 ## 👤 Author
 
-Raz
+**Raz**
 
 Python | AI & ML Enthusiast
 
@@ -149,6 +149,6 @@ Thanks to open-source datasets and libraries that made this project possible.
 
 Connect with Me!
 
-GitHub: https://github.com/GitRzh
+**GitHub:** https://github.com/GitRzh
 
-E-mail: GitRzh@users.noreply.github.com
+**E-mail:** GitRzh@users.noreply.github.com
