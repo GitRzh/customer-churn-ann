@@ -47,7 +47,7 @@ Customer-Churn-ANN/
 │   └── ann_model.h5
 │
 ├── notebooks/
-│   └── ann_training.ipynb
+│   └── ann_training.ipynb #not used
 │
 ├── app.py
 ├── requirements.txt
