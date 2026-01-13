@@ -111,8 +111,8 @@ cd customer-churn-ann
 
 Step 2: Create Virtual Enviroment
 python -m venv venv
-source venv/bin/activate        # Linux / Mac
-venv\Scripts\activate           # Windows
+source venv/bin/activate        #linux/mac
+venv\Scripts\activate           #windows
 
 Step 3: Install Dependencies
 pip install -r requirements.txt
