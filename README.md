@@ -143,7 +143,7 @@ Python | AI & ML Enthusiast
 
 ---
 
-### ⭐ Acknowledgement
+## ⭐ Acknowledgement
 
 Thanks to open-source datasets and libraries that made this project possible.
 
