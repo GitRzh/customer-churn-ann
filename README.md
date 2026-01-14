@@ -104,20 +104,27 @@ Customer-Churn-ANN/
 ---
 
 ## ▶️ How to Run the Project
+- Step 1: Clone the Repository
 ```bash
-Step 1: Clone the Repository
-git clone https://github.com/GitRzh/customer-churn-ann.git
-cd customer-churn-ann
-
-Step 2: Create Virtual Enviroment
+git clone https://github.com/GitRzh/imdb-sentiment-analysis-rnn.git
+cd imdb-sentiment-analysis-rnn
+```
+- Step 2: Create Virtual Enviroment
+```bash
 python -m venv venv
+```
+```bash
 source venv/bin/activate        #linux/mac
+```
+```bash
 venv\Scripts\activate           #windows
-
-Step 3: Install Dependencies
+```
+- Step 3: Install Dependencies
+```bash
 pip install -r requirements.txt
-
-Step 4: Run Streamlit App
+```
+- Step 4: Run the Application Locally
+```bash
 streamlit run app.py
 ```
 
